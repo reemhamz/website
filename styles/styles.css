@@ -1,0 +1,66 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #05a19c;
+  color: white;
+  margin: 0;
+}
+
+.wrapper{
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+  text-align: center;
+  background-image: url(../images/PokemonBG.png);
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  margin: 0;
+  padding-top: 100px;
+}
+h1 {
+  font-family: "Bad Script", cursive;
+  font-size: 10rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2, h3, h4,p {
+  font-family: "Turret Road", cursive;
+  font-weight: 300;
+}
+
+h2{
+    font-size: 6rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h3 span{
+    font-weight: 600;
+}
+
+h4{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 3rem;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
